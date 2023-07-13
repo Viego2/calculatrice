@@ -1,0 +1,27 @@
+#include <iostream>
+
+int main()
+{
+    int A, B; 
+    int som, pro ,quo ,reste, diff;
+    std::cout << " la valeur de A est de : ";
+    std::cin >> A; 
+    std::cout << " la valeure de B est de : ";
+    std::cin >> B; 
+
+    som = A + B;
+    diff = A - B;
+    pro = A * B; 
+    reste = A % B; 
+    quo = A / B; 
+
+    std::cout << "La somme est de : " << som << std::endl; 
+    std::cout << "la difference est de : " << diff << std::endl; 
+    std::cout << "le produit est de  " << pro << std::endl; 
+    std::cout << "le quotien est de : " << quo << std::endl; 
+    std::cout << " le reste est de : " << reste << std::endl; 
+
+    system("pause");
+
+    return 0; 
+}
